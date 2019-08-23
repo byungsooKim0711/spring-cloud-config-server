@@ -5,7 +5,10 @@ zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
 zuul.sensitiveHeaders: Cookie, Set-Cookie # 기본은 Cookie, Set-Cookie, Authorization 을 전파하지 않음.
 zuul.debug.request: true
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
-hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 5000
-licensingservice.ribbon.ReadTimeout: 5000
 signing.key: "kimbs"
+
+
+
+
+
+
