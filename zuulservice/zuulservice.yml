@@ -7,5 +7,5 @@ zuul.sensitiveHeaders: Cookie, Set-Cookie # 기본은 Cookie, Set-Cookie, Author
 zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
 hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 5000
-licensingservice.ribbon.ReadTimeout: 5
+licensingservice.ribbon.ReadTimeout: 5000
 signing.key: "kimbs"
